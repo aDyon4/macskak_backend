@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 let macskak = [
-    { id:1, nev:'Cirmos', kor:2, szin:'szürke' }
+    { id:1, nev:'Cirmos', kor:2, szin:'szürke' },
     { id:2, nev:'Morcos', kor:1, szin:'fekete' }
 ]
 let nextId = 2;
